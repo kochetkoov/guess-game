@@ -32,10 +32,6 @@ jobs:
         run: |
           make install
 
-      - name: Run game
-        run: |
-          make play-game
-
       - name: Run linter
         run: |
           make lint
