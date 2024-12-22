@@ -34,7 +34,7 @@ jobs:
 
       - name: Run game
         run: |
-          play-game
+          make play-game
 
       - name: Run linter
         run: |
