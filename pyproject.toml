@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "guess-game"
+version = "0.1.0"
+description = ""
+authors = ["Алексей <kochetkoov.ao@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt = "^0.4.1"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+play-game = "scripts.play_game:play_game"
